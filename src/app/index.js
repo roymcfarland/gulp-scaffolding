@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('gulpStud', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ngMaterial'])
+angular.module('gulpScaffolding', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ngMaterial'])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('home', {

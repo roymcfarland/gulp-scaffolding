@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('gulpStud')
+angular.module('gulpScaffolding')
   .controller('NavbarCtrl', function ($scope) {
     $scope.date = new Date();
   });

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('gulpStud')
+angular.module('gulpScaffolding')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       {

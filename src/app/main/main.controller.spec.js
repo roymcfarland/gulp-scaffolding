@@ -3,7 +3,7 @@
 describe('controllers', function(){
   var scope;
 
-  beforeEach(module('gulpStud'));
+  beforeEach(module('gulpScaffolding'));
 
   beforeEach(inject(function($rootScope) {
     scope = $rootScope.$new();
